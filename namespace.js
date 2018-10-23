@@ -23,7 +23,7 @@ var CELINAKATA = {
         });
         newBox.addEventListener("mouseout", function(){
             this.classList.toggle("highlight");
-            this.removeAttribute('style');
+            this.removeAttribute("style");
         });
     }
 }
